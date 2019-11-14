@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".MainActivity">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorBackground">
+
+        <include layout="@layout/layout_top_menu"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+
+        <LinearLayout
+                android:id="@+id/layout_setting_system"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="60dp"
+                android:layout_marginHorizontal="60dp"
+                android:layout_gravity="center_horizontal"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                <TextView style="@style/line_title"
+                          android:id="@+id/tv_line_title1"
+                          android:text="LINE 1"
+                          android:layout_marginBottom="60dp"/>
+
+                <LinearLayout style="@style/line_row_block">
+                    <TextView style="@style/line_row_head" android:text="TIME"/>
+                    <TextView style="@style/table_row_data_selector" android:id="@+id/tv_time1" android:textSize="48sp"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/line_row_block">
+                    <TextView style="@style/line_row_head" android:text="Q'ty"/>
+                    <EditText style="@style/table_row_data_editor1" android:id="@+id/et_qty1" android:inputType="number" android:textSize="48sp"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/line_button_block">
+                    <Button
+                            android:id="@+id/btn_input1"
+                            style="@style/btn_default"
+                            android:stateListAnimator="@null"
+                            android:text="INPUT" />
+                    <Button
+                            android:id="@+id/btn_defect1"
+                            style="@style/btn_red"
+                            android:stateListAnimator="@null"
+                            android:text="DEFECT" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="30dp"
+                    android:background="@color/colorWhite"/>
+
+            <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                <TextView style="@style/line_title"
+                          android:id="@+id/tv_line_title2"
+                          android:text="LINE 2"
+                          android:layout_marginBottom="60dp"/>
+
+                <LinearLayout style="@style/line_row_block">
+                    <TextView style="@style/line_row_head" android:text="TIME"/>
+                    <TextView style="@style/table_row_data_selector" android:id="@+id/tv_time2" android:textSize="48sp"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/line_row_block">
+                    <TextView style="@style/line_row_head" android:text="Q'ty"/>
+                    <EditText style="@style/table_row_data_editor1" android:id="@+id/et_qty2" android:inputType="number" android:textSize="48sp"/>
+                </LinearLayout>
+
+                <LinearLayout style="@style/line_button_block">
+                    <Button
+                            android:id="@+id/btn_input2"
+                            style="@style/btn_default"
+                            android:stateListAnimator="@null"
+                            android:text="INPUT" />
+                    <Button
+                            android:id="@+id/btn_defect2"
+                            style="@style/btn_red"
+                            android:stateListAnimator="@null"
+                            android:text="DEFECT" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="60dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="end"
+                android:orientation="horizontal">
+            <ImageButton
+                    android:id="@+id/btn_setting"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/ic_settings_yellow_32dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

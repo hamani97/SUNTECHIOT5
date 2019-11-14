@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SUNTECH IoT-RFT</string>
+
+    <!-- Titles -->
+    <string name="title_server_info">SERVER INFO</string>
+    <string name="title_system_info">SYSTEM INFO</string>
+    <string name="title_password_info">PASSWORD</string>
+    <string name="title_etc">ETC</string>
+    <string name="title_app_title">TITLE</string>
+
+    <!-- Lebels -->
+    <string name="label_version">VERSION</string>
+    <string name="label_server_ip">SERVER IP</string>
+    <string name="label_server_port">PORT</string>
+    <string name="label_main_title">MAIN TITLE</string>
+    <string name="label_current">CURRENT</string>
+    <string name="label_new">NEW</string>
+    <string name="label_factory">FACTORY</string>
+    <string name="label_zone">ZONE</string>
+    <string name="label_line">LINE</string>
+
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="confirm">Confirm</string>
+    <string name="exit">Exit</string>
+    <string name="cancel">Cancel</string>
+    <string name="check">Check</string>
+
+    <!-- Messages -->
+    <string name="msg_require_info">Info not complete</string>
+    <string name="msg_connection_fail">The connection to the server failed.</string>
+    <string name="msg_select_factory">Please select a factory first</string>
+    <string name="msg_select_zone">Please select a zone first</string>
+
+</resources>

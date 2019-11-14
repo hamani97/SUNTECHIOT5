@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- common -->
+    <color name="transparent">#00ff0000</color>
+    <color name="colorBackground">#1c2c39</color>
+    <color name="colorBackground1">#213444</color>
+    <color name="colorBackground2">#283E52</color>
+    <color name="colorBackgroundTop">#192533</color>
+
+    <color name="colorReadonly">#4d4d4d</color>
+    <color name="colorSelector">#8d4dab</color>
+    <color name="colorSelectorNew">#B16BC4</color>
+    <color name="colorSelectorNewLine">#C190CF</color>
+    <color name="colorSelectorDisable">#888d4dab</color>
+    <color name="colorEditor1">#75B139</color>
+    <color name="colorEditor1New">#6E9C40</color>
+    <color name="colorEditor1NewLine">#8DB369</color>
+    <color name="colorEditor1Disable">#7775B139</color>
+
+    <!-- common color -->
+    <color name="colorDefault">#2f3f51</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhite2">#d0efff</color>
+    <color name="colorWhite3">#cdcdcd</color>
+    <color name="colorWhite4">#a0a0a0</color>
+    <color name="colorYellow">#FFDC1A</color>
+    <color name="colorOrange">#f8ad13</color>
+    <color name="colorSky">#0079BA</color>
+    <color name="colorRed">#FF1D1D</color>
+    <color name="colorGray">#888888</color>
+    <color name="colorBlack">#222222</color>
+
+    <!-- button color -->
+    <color name="colorButtonOrange">#FF9900</color>
+    <color name="colorButtonOrangeFocus">#eaae40</color>
+    <color name="colorButtonGray">#535353</color>
+    <color name="colorButtonGrayFocus">#727272</color>
+</resources>
